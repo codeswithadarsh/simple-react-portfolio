@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: tomato;
+    text-align: center;
+}
+.navbar a{
+    color:  wheat;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.imgg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgmy{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.aboutMe h1{
+    text-align: center;
+    margin-top: 20px;
+    color: tomato;
+}
+
+
+.aboutMe>p{
+    padding: 20px;
+}
+
+.section{
+    background-color: wheat;
+    color:blueviolet;
+}
+
+.section>h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.section>p{
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+
+.footer>p{
+    font-size: 10px;
+    padding-right: 100px;
+}
+
+.fmenu{
+    padding-left: 100px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
